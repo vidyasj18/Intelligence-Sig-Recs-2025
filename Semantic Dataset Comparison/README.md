@@ -2,7 +2,7 @@
 
 ## Overview
 
-Your task is to develop a deep learning pipeline that computes semantic similarity scores between two image datasets. The goal is to build a system that can understand and compare the semantic content of images, going beyond simple pixel-level comparisons.
+Your task is to develop a pipeline that computes semantic similarity scores between two image datasets. The goal is to build a system that can understand and compare the semantic content of images, going beyond simple pixel-level comparisons.
 
 ## Important Guidelines
 
