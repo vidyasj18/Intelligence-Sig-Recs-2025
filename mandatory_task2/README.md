@@ -10,7 +10,7 @@ These are mandatory but extras are always be helpful for you (extras is extra pr
 
 ## Data
 
-[kaggle dataset link](https://www.kaggle.com/datasets/kalvakaushik/intel-recs-mandatory-task)
+[kaggle dataset link](https://kaggle.com/datasets/222808b5f956447e66f9b533b8010a214b1088c304aa20a28adc66f83877a9d2)
 
 ## Submision
 Do all your solution stuff at the start, write a short story of what you did in that notebook and keep it with you. Later you have to either make it public and give its link or you have to add someone as colaborator to that notebook.
@@ -20,3 +20,4 @@ submission will be checked tharoughly for fraudulent activities. If you were fou
 You will be found guilty if I think you used AI
 
 ## story is mandatory 
+
