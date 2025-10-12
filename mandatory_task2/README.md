@@ -19,5 +19,6 @@ submission will be checked tharoughly for fraudulent activities. If you were fou
 
 You will be found guilty if I think you used AI
 
-## story is mandatory 
+## story and visualization of test results are mandatory
+
 
