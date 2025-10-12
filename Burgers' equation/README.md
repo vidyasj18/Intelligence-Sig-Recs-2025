@@ -55,4 +55,8 @@ There are a lot of other crazy CFD problems out there. There are majorly 3 catog
 
 These are where PINN are mostly used. But it can be used anywhere either if there is a lot of noise on something that was supposed to follow physics or if there are PDEs that are very complex to solve.
 
+I suggest you to see fluid flow with turbulance which is one of the most common problem statment for PINN (we don't explect you to do this, just look into it) [link1](https://turbulence.idies.jhu.edu/home) this is a website where you can get databse for fluid flow 
+
+[link2](https://docs.nvidia.com/physicsnemo/latest/physicsnemo/)  this is nvidia website where there is a huge section for these topics of Physics based models with datasets, models, metrics, custom loss, examples, pipelines and a lot more, this is very well maintained too
+
 Hope this task opens you a new niche in Data Science for you
