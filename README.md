@@ -29,17 +29,17 @@ Welcome to the Intelligence Special Interest Group recruitment repository! We're
 4. **Add Collaborators**
    - Go to your forked repository's "Settings" > "Collaborators"
    - Add the following GitHub IDs:
-     - @Bhuvanesh-Singla
-     - @S0urTamarind
-     - @falconakhil
-     - @saketjha34
-     - @KaushikNITK
-     - @PranavBhatP
-     - @Pranav-Vinodh
-     - @GamerDra
-     - @swrjsingh
-     - @Vanshika-Mittal
-     - @vishruth2005
+     - Bhuvanesh-Singla
+     - S0urTamarind
+     - falconakhil
+     - saketjha34
+     - KaushikNITK
+     - PranavBhatP
+     - Pranav-Vinodh
+     - GamerDra
+     - swrjsingh
+     - Vanshika-Mittal
+     - vishruth2005
 
 
 ## Important Notes
