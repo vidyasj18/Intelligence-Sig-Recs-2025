@@ -49,6 +49,7 @@ Welcome to the Intelligence Special Interest Group recruitment repository! We're
 - Plagiarism will result in immediate disqualification
 - Keep your repository private until submission
 - Follow all instructions exactly as specified in each task
+- If you have any kaggle notebooks, make them public before the deadline and add links to those notebooks in the respective folders.
 
 ## Questions?
 
