@@ -40,6 +40,8 @@ Welcome to the Intelligence Special Interest Group recruitment repository! We're
      - swrjsingh
      - Vanshika-Mittal
      - vishruth2005
+5. **Fill IRIS Form**
+   - Fill the following before deadline: [Form](https://iris.nitk.ac.in/form/webclubintel2025)
 
 
 ## Important Notes
