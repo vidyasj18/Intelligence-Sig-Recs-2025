@@ -4,7 +4,7 @@ Welcome to the Intelligence Special Interest Group recruitment repository! We're
 
 ## Application Requirements
 
-- Complete the **mandatory task**
+- Complete the **mandatory tasks**
 - Complete **at least one** non-mandatory task
 - All solutions must be your original work
 
