@@ -12,51 +12,51 @@ where:
 - $\nu$ is the kinematic viscosity,
 - $t$ is time.
 
-These are Burgers' equations for 2D. these are derived from Navier strokes equations by taking following assumptions:
+These are the 2D Burgers' equations, derived from the Navier–Stokes equations under the following assumptions:
 ## Assumptions to Derive the 2D Burgers' Equation from Navier–Stokes
 
-1. **Neglect pressure gradient**  
+1. **Neglect pressure gradient**
    The pressure term $\nabla p$ is dropped to focus purely on convection and diffusion effects. This simplifies the equations by removing the need to solve for pressure.
 
-2. **No external forces**  
+2. **No external forces**
    External body forces like gravity are ignored, further simplifying the model.
 
-3. **Relaxed incompressibility**  
-   In some versions of the Burgers' equation, the incompressibility condition  
-   $\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0$  
+3. **Relaxed incompressibility**
+   In some versions of the Burgers' equation, the incompressibility condition
+   $\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0$
    is dropped to simplify the analysis or numerical solution.
 
-4. **Simplified 2D velocity field**  
+4. **Simplified 2D velocity field**
    Both velocity components $u(x, y, t)$ and $v(x, y, t)$ are retained, but the flow is treated in a simplified 2D framework without pressure coupling.
 
 ## Concept of ML
-You don't need to solve those equations don't worry, just knowing how to do differentiation is sufficient for this task. In this task you need to explore the concept of Physics in Deep Learning. It's fine if you hate physics, for now just take this as math.
+You don't need to solve those equations; don't worry, just knowing how to do differentiation is sufficient for this task. In this task you need to explore the concept of physics in deep learning. It's fine if you dislike physics — for now just take this as math.
 
-Explore the concepts of PINN, create your own dataset (synthetic), train a PINN, optimize the loss function and predict.
-Once you done those you might think this is unnecessary but believe me if you felt so then you did something wrong. create a small training dataset still you will achive great accuracy
+Explore the concepts of PINNs, create your own dataset (synthetic), train a PINN, optimize the loss function, and predict.
+Once you have done those, you might think this is unnecessary, but if you feel that way then you did something wrong. Create a small training dataset — you can still achieve great accuracy.
 
 ## Task Instruction
-steps:
+### Steps:
 
-- Create synthetic Burgers' 2D dataset with varying $\nu$ and it should be time series too
-- visualize them, explain how the patterns look
-- create a grouped split for train and test i.e. train dataset and test dataset should not have anything in common, even $\nu$ (then only you will see the greatness of PINN)
-- visualize and compare true with predicted
-- Try adding noise and see how well it avoids noise, and what hyper parameters need to be changed to get better results with lot of noise
+- Create a synthetic Burgers' 2D dataset with varying $\nu$; it should be time series as well.
+- Visualize them and explain how the patterns look.
+- Create a grouped split for train and test — i.e., the train dataset and test dataset should not have anything in common, even $\nu$ (this is the only way you'll see the strengths of PINNs).
+- Visualize and compare true and predicted values.
+- Try adding noise and see how well the model handles it, and which hyperparameters need to be changed to get better results with a lot of noise.
 
 ## Note
 
-The task you will do is far for reality as this is a synthetic dataset, I appriciate a lot if you could find a real dataset (not only Burgers' equation) with real world senarios or physics solver data points and train your PINN on it. 🥲
+The task you will do is far from reality, as this is a synthetic dataset. I would greatly appreciate it if you could find a real dataset (not only Burgers' equation) with real-world scenarios or physics solver data points and train your PINN on it. 🥲
 
-There are a lot of other crazy CFD problems out there. There are majorly 3 catogaries
-1. Heat Transfer
+There are many other complex CFD problems out there. They fall into three major categories:
+1. Heat transfer
 2. Mass transfer
-3. fluid flow
+3. Fluid flow
 
-These are where PINN are mostly used. But it can be used anywhere either if there is a lot of noise on something that was supposed to follow physics or if there are PDEs that are very complex to solve.
+These are where PINNs are mostly used. But PINNs can be used anywhere — for example, when there is a lot of noise in data that should follow physics, or when the governing PDEs are very complex to solve.
 
-I suggest you to see fluid flow with turbulance which is one of the most common problem statment for PINN (we don't expect you to do this, just look into it) [link1](https://turbulence.idies.jhu.edu/home) this is a website where you can get databse for fluid flow 
+I suggest you look into fluid flow with turbulence, which is one of the most common problem statements for PINNs (we don't expect you to solve it here; just explore it): [link1](https://turbulence.idies.jhu.edu/home) — this website provides databases for fluid flow.
 
-[link2](https://docs.nvidia.com/physicsnemo/latest/physicsnemo/)  this is nvidia website where there is a huge section for these topics of Physics based models with datasets, models, metrics, custom loss, examples, pipelines and a lot more, this is very well maintained too
+[link2](https://docs.nvidia.com/physicsnemo/latest/physicsnemo/) — NVIDIA's site, which contains extensive material on physics-based models, datasets, metrics, custom losses, examples, and pipelines. It's very well maintained.
 
-Hope this task opens you a new niche in Data Science for you
+Hope this task opens a new niche in data science for you.
