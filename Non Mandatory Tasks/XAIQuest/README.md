@@ -9,7 +9,7 @@ This task will test your understanding of **model performance, robustness, calib
 ## 🧠 Overview
 
 You are required to:
-- Train **multiple convolutional neural network (CNN)** architectures on given image dataset.  
+- Train **multiple convolutional neural network (CNN)** architectures on the given image dataset.  
 - Evaluate their **performance, calibration, robustness, and interpretability**.  
 - Use **explainability methods** such as **Grad-CAM**, **Eigen-CAM**, and **Integrated Gradients** to analyze and compare model behaviors.  
 - Design **stress tests** to explore model robustness and uncover **spurious correlations**.
@@ -69,7 +69,7 @@ Use **explainability techniques** to analyze your models:
 - **Grad-CAM**
 - **Eigen-CAM**
 - **Integrated Gradients**
-- **Others if you find anything interesating**
+- **Others if you find anything interesting**
 
 Perform these analyses for:
 - Correctly classified images.
@@ -90,11 +90,11 @@ Perform these analyses for:
 
 Design **stress tests** to reveal vulnerabilities:
 - Add noise or blur to test robustness.
-- Insert a small colored pixel/patch for only one class, the model should then latch on to that and only use that to classify that class.
+- Insert a small colored pixel/patch for only one class; the model should then latch on to that and use it to classify that class.
 - Change image backgrounds or occlude parts of the object.
 - Drop or shuffle color channels.
 - Compare models trained **with vs without** Mixup/CutMix.
-- For all the above, use explainability at different layers of your CNN model and give a report on how edges learnt at different layers as you go deep is different for different architectures and how do they get affected when noise is injected.
+- For all the above, use explainability at different layers of your CNN model and give a report on how edges learned at different layers, as you go deeper, differ across architectures and how they are affected when noise is injected.
 
 📈 **Quantitative Evaluation:**
 - Accuracy & per-class F1 under perturbations.
