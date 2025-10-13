@@ -11,7 +11,7 @@ Welcome to the Intelligence Special Interest Group recruitment repository! We're
 ## Instructions
 
 1. **Fork the Repository**
-   - Click the "Fork" button at the top right of this repository
+   - Click the "Use this template" button at the top right of this repository
    - This creates your personal copy of the challenges to work on
 
 2. **Solve the Problems**
