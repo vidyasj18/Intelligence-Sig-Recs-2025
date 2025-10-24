@@ -46,6 +46,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 ```
 
 - Model is trained using pretrained models
+- Here, BERT is used.
 ```
 from transformers import AutoTokenizer, AutoModelForQuestionAnswering
 
@@ -67,4 +68,5 @@ Output
 ```
 Answer: nlp
 ```
+
 
