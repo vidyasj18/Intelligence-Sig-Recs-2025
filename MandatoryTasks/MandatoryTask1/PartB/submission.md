@@ -8,11 +8,12 @@ This model helps in converting a text from English language to french
   ```
   !pip install transformers datasets sacrebleu sentencepiece tensorflow --quiet
   ```
+  
 ## Workflow
 - Import tensorflow, numpy and load_dataset
 - From transformers import necessities
 
-  ```
+```
   from transformers import (
     AutoTokenizer,
     TFAutoModelForSeq2SeqLM,
@@ -95,3 +96,4 @@ Translated to French: la rue tait un d heure, il tait un d te de la v te de la t
 yeux du plus de la c te de la vie et les yeux de la vie et les yeux de la famille.
 English: how dared they kill him!
 ```
+
