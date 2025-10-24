@@ -4,14 +4,21 @@ Representing the words in the form of vectors. Have the unique vectors for each 
 ## Installation steps 
 - Fork this repository
 - install Tensorflow
+  
   '''
+  
   !pip install -q tensorflow tensorflow-hub pandas numpy nltk
   
   '''
+  
 - Install datasets library - to directly use the dataset without downloading
+  
   '''
+  
   pip install datasets
+  
   '''
+  
 
 ## About the dataset
 - The dataset used is https://huggingface.co/datasets/lucadiliello/newsqa - NewsQA
@@ -80,3 +87,4 @@ pip install gensim
 
 
   
+
