@@ -52,6 +52,7 @@ tokenizer_fr.fit_on_texts(fr_texts)
 target_tensor = tokenizer_fr.texts_to_sequences(fr_texts)
 ```
 
+
 - Padding the sequences to make it the same length by adding 0 when the length of the sequence is smaller than the padding length taken
 ```
 input_tensor = keras.utils.pad_sequences(input_tensor, padding='post')
@@ -78,6 +79,7 @@ dataset_tf = (
 - Encoder and decoder inferences done by putting in Model function
 - Create reverse word mappings - numbers to words
 - Build a function to translate english to french
+  
 
 ### Some examples tried on the built model
 
@@ -89,6 +91,7 @@ had given to her complexion, and doubt as to the occasion's justifying her comin
 the latter was thinking only of his breakfast.
 ```
 
+
 Output
 
 ```
@@ -96,4 +99,5 @@ Translated to French: la rue tait un d heure, il tait un d te de la v te de la t
 yeux du plus de la c te de la vie et les yeux de la vie et les yeux de la famille.
 English: how dared they kill him!
 ```
+
 
