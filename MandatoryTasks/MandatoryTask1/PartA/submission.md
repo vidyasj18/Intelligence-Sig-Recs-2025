@@ -5,19 +5,19 @@ Representing the words in the form of vectors. Have the unique vectors for each 
 - Fork this repository
 - install Tensorflow
   
-  '''
+  ```
   
   !pip install -q tensorflow tensorflow-hub pandas numpy nltk
   
-  '''
+  ```
   
 - Install datasets library - to directly use the dataset without downloading
   
-  '''
+  ```
   
   pip install datasets
   
-  '''
+  ```
   
 
 ## About the dataset
@@ -87,4 +87,5 @@ pip install gensim
 
 
   
+
 
